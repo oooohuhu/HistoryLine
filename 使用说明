@@ -1,0 +1,14 @@
+# HistoryLine
+# 布局
+<com.asuka.android.asukaandroid.demo.views.HistoryLine
+        android:id="@+id/history_line"
+        android:layout_width="20dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="15dp">
+    </com.asuka.android.asukaandroid.demo.views.HistoryLine>
+###  代码
+ HistoryLine line= (HistoryLine) itemView.findViewById(R.id.history_line);
+ //到了那个流程头部就显示颜色
+    if (adapter.getCurpositon()==0){
+                    line.showhead(true);
+                }
